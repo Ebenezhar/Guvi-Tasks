@@ -1,0 +1,59 @@
+<!-- 11. Create an HTML page, which should contain all types of input elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bas">
+        <label>Enter the Name</label>
+        <input type="text" placeholder="Enter Name">    
+        <label>Enter the Password</label>
+        <input type="password" placeholder="Enter Password" required minlength="5">
+        <label>Enter the Age</label>
+        <input type="number" placeholder="Enter Age">
+        <div>
+            <label>Gender</label>
+            <input type="radio" name="gen">
+            <label>male</label>
+            <input type="radio" name="gen">
+            <label>Female</label>
+        </div>
+        <h3>hobbies</h3>  
+        <div>
+            <input type="checkbox" name="hobbies" id="Badminton">
+            <label for="Badminton">Badminton</label>
+
+            <input type="checkbox" name="travelling" id="Travelling">
+            <label for="Travelling">Travelling</label>
+
+            <input type="checkbox" name="music" id="music">
+            <label for="Travelling">Music</label>
+        </div> 
+        <h3>State</h3>   
+        <select>
+            <option value="">--Select the State--</option>
+            <option value="TN">Tamil Nadu</option>
+            <option value="WB">West Bengal</option>
+            <option value="KL">Kerala</option>
+            <option value="AP">Andra Pradesh</option>
+            <option value="TL">Telangana</option>
+        </select>
+        <h3>Tweet</h3>
+        <textarea placeholder="Tell us what's on your mind" id="" cols="30" rows="10"></textarea>
+        <div>
+            <h3>Date of Birth</h3>
+            <input type="date">
+        </div>
+        <div>
+            <h3>Favourite Color</h3>
+            <input type="color">
+        </div>
+        
+    </div>
+</body>
+</html>

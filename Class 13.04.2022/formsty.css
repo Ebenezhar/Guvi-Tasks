@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.fonts{
+    display: block;
+    /* margin-right: 500px; */
+    margin-top: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap:30px;
+}
+.fonts1{
+    margin-right: 900px;
+}
+.fonts2{
+    margin-top: 30px;
+}
+.email{
+    display: grid;
+    margin-right: 250px;
+    
+}
+.stars{
+    position: absolute;
+    /* transform: translate(-50%,-50%); */
+    display: flex;
+}
+.stars input{
+    /* display: none; */
+}
+.stars label{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    background: #ccc;
+}
+.stars label::before{
+    content: "\f005";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

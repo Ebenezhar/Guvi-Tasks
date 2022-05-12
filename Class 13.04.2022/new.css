@@ -1,0 +1,15 @@
+h1{
+    font-weight: uppercase;
+    color: greenyellow
+}
+.cool{
+    color:blueviolet ;
+}
+body{
+    background-image: url("https://cdn.mos.cms.futurecdn.net/FwgtCHte4YcTxjJ8qmRv34-1200-80.jpg")
+}
+img{
+    height: 300px;
+    width: 400;
+    filter: blur(3.5px);
+}
