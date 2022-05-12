@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+  }
+  
+  cute{
+    height: 150px;
+    width: 100px;
+  
+    /* display: block; */
+  
+    /* Zooms in */
+    object-fit: cover;
+  
+    border-radius: 30px;
+  
+    /* Zooms  out */
+    /* object-fit: contain; */
+  }
+  
