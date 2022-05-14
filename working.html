@@ -1,0 +1,159 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        li::before{
+            content: "$  " ;
+        }
+        li::after{
+            content:"⭐ ";
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Football</li>
+            <li>Music</li>
+            <li>Cookig</li>
+            <li>Travelling</li>
+        </ul>
+    </div>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    .country-container {
+      font-family: Roboto, sans-serif;
+      /* background-color: crimson; */
+      width: 224px;
+      background-color: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: rgb(59 45 45 / 25%) 0px 5px 15px;
+    }
+
+    .country-flag {
+      height: 175px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .country-spec {
+      padding: 10px;
+    }
+
+    .country-name {
+      margin-top: 0px;
+    }
+
+    body {
+      background-color: whitesmoke;
+    }
+
+    .country-container span {
+      font-weight: bold;
+    }
+
+    /* .country-list{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 15px
+      } */
+    /* .country-container:nth-child(4){
+        width: 400px;
+      } */
+    .country-list {
+      display: grid;
+      grid-template-columns:  1fr;
+      /* grid-template-columns: 1fr 1fr 1fr; */
+      /* grid-template-columns: repeat(3, 1fr); */
+      justify-items: center;
+      gap: 15px;
+      row-gap: 30px;
+    }
+    @media (min-width: 600px){
+        .country-list{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+        
+    
+
+    /* .country-container:nth-child(4){
+        width: 400px;
+    } */
+    /* 1fr - fractional unit */
+  </style>
+</head>
+
+<body>
+  <section class="country-list">
+    <div class="country-container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/India_flag_300.png" alt="India" class="country-flag" />
+      <div class="country-spec">
+        <h2 class="country-name">India</h2>
+        <p><span>Population:</span> 1,394,975,829</p>
+        <p><span>Region:</span> Asia</p>
+        <p><span>Capital:</span> New delhi</p>
+      </div>
+    </div>
+
+    <div class="country-container">
+      <img class="country-flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png" alt="" />
+      <div class="country-spec">
+        <h2 class="country-name">Germany</h2>
+        <p><strong>Population:</strong> 1,394,975,829</p>
+        <p><strong>Region:</strong> Asia</p>
+        <p><strong>Capital:</strong> New delhi</p>
+      </div>
+    </div>
+    <div class="country-container">
+      <img class="country-flag" src="https://upload.wikimedia.org/wikipedia/commons/0/01/Brazil_flag_300.png" alt="" />
+      <div class="country-spec">
+        <h2 class="country-name">Brazil</h2>
+        <p><strong>Population:</strong> 1,394,975,829</p>
+        <p><strong>Region:</strong> Asia</p>
+        <p><strong>Capital:</strong> New delhi</p>
+      </div>
+    </div>
+    <div class="country-container">
+      <img class="country-flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/640px-Flag_of_the_United_States.svg.png" alt="" />
+      <div class="country-spec">
+        <h2 class="country-name">United states</h2>
+        <p><strong>Population:</strong> 1,394,975,829</p>
+        <p><strong>Region:</strong> Asia</p>
+        <p><strong>Capital:</strong> New delhi</p>
+      </div>
+    </div>
+    <div class="country-container">
+      <img class="country-flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/640px-Flag_of_Iceland.svg.png" alt="" />
+      <div class="country-spec">
+        <h2 class="country-name">Iceland</h2>
+        <p><strong>Population:</strong> 1,394,975,829</p>
+        <p><strong>Region:</strong> Asia</p>
+        <p><strong>Capital:</strong> New delhi</p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
