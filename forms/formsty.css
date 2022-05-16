@@ -1,0 +1,41 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container1{
+    width:500px;   
+}
+.name{
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+.container2{
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: space-evenly;
+    justify-items: stretch;
+    align-items: baseline;
+}
+.container3{
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: space-evenly;
+    justify-items: stretch;
+    align-items: baseline;
+}
+.index{
+    padding: 5px 70px 5px 5px;
+}
+.butt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    height: 40px;
+}
+span{
+    color: rgb(255, 84, 255);
+}
