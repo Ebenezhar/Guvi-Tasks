@@ -10,10 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap" rel="stylesheet">
-       
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
 </head>
 <body>
     <form class="container1">
+        
         <h3>Name<span> *</span></h3>
         <div class="name">
             <input type="text" class="fname" placeholder="Enter the first Name">
@@ -27,67 +28,85 @@
         </div>
         <h3 class="fonts">Your Experience<span> *</span></h3>
         <div class="stars">
-            <input type="radio" name="star" id="star1"><label for="star1"></label>
-            <input type="radio" name="star" id="star2"><label for="star2"></label>
-            <input type="radio" name="star" id="star3"><label for="star3"></label>
-            <input type="radio" name="star" id="star4"><label for="star4"></label>
-            <input type="radio" name="star" id="star5"><label for="star5"></label>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
         </div>
         <p class="fonts2">Overall How would you rate your experience with us ?</p>   
     </form>
     <h3 class="fonts">How satisfied are you with<span> *</span></h3>
     <form class="container2">
-        <p class="head0"></p>
-        <p class="head1">Very Unlikely</p>
-        <p class="head2"> Unlikely</p>
-        <p class="head3"> Neutral</p>
-        <p class="head4"> Likely</p>
-        <p class="head5"> Very Likely</p>
-        <p class="index">Purchase</p>
-        <input type="radio" name="purchase">
-        <input type="radio" name="purchase">
-        <input type="radio" name="purchase">
-        <input type="radio" name="purchase">
-        <input type="radio" name="purchase">
-        <p class="index">Service</p>
-        <input type="radio" name="Service">
-        <input type="radio" name="Service">
-        <input type="radio" name="Service">
-        <input type="radio" name="Service">
-        <input type="radio" name="Service">
-        <p class="index">Company Overall</p>
-        <input type="radio" name="Overall">
-        <input type="radio" name="Overall">
-        <input type="radio" name="Overall">
-        <input type="radio" name="Overall">
-        <input type="radio" name="Overall">
-    </form>
+        <div class="rating">
+            <p class="head0"></p>
+            <p class="head1">Very Unlikely</p>
+            <p class="head2"> Unlikely</p>
+            <p class="head3"> Neutral</p>
+            <p class="head4"> Likely</p>
+            <p class="head5"> Very Likely</p>
+        </div>
+        <div class="info info1">
+            <p class="index">Purchase</p>
+            <input type="radio" name="purchase">
+            <input type="radio" name="purchase">
+            <input type="radio" name="purchase">
+            <input type="radio" name="purchase">
+            <input type="radio" name="purchase">
+        </div>
+        <div class="info">
+            <p class="index">Service</p>
+            <input type="radio" name="Service">
+            <input type="radio" name="Service">
+            <input type="radio" name="Service">
+            <input type="radio" name="Service">
+            <input type="radio" name="Service">
+
+        </div>
+        <div class="info info1">    
+            <p class="index">Company Overall</p>
+            <input type="radio" name="Overall">
+            <input type="radio" name="Overall">
+            <input type="radio" name="Overall">
+            <input type="radio" name="Overall">
+            <input type="radio" name="Overall">
+        </div>
+        </form>
     <h3 class="fonts">How likely are you to<span> *</span></h3>
     <form class="container3">
-        <p class="head0"></p>
-        <p class="head1">Very unsatisfied</p>
-        <p class="head2"> unsatisfied</p>
-        <p class="head3"> Neutral</p>
-        <p class="head4"> satisfied</p>
-        <p class="head5"> Very satisfied</p>
-        <p class="index">Buy again from us</p>
-        <input type="radio" name="buy">
-        <input type="radio" name="buy">
-        <input type="radio" name="buy">
-        <input type="radio" name="buy">
-        <input type="radio" name="buy">
-        <p class="index">Recommend our product to others</p>
-        <input type="radio" name="product">
-        <input type="radio" name="product">
-        <input type="radio" name="product">
-        <input type="radio" name="product">
-        <input type="radio" name="product">
-        <p class="index">Recommend our company to others</p>
-        <input type="radio" name="company">
-        <input type="radio" name="company">
-        <input type="radio" name="company">
-        <input type="radio" name="company">
-        <input type="radio" name="company">
+        <div class="rating">
+            <p class="head0"></p>
+            <p class="head1">Very unsatisfied</p>
+            <p class="head2"> unsatisfied</p>
+            <p class="head3"> Neutral</p>
+            <p class="head4"> satisfied</p>
+            <p class="head5"> Very satisfied</p>
+        </div>
+        <div class="info info1">
+            <p class="index">Buy again from us</p>
+            <input type="radio" name="buy">
+            <input type="radio" name="buy">
+            <input type="radio" name="buy">
+            <input type="radio" name="buy">
+            <input type="radio" name="buy">
+        </div>
+        <div class="info">
+            <p class="index">Recommend our product to others</p>
+            <input type="radio" name="product">
+            <input type="radio" name="product">
+            <input type="radio" name="product">
+            <input type="radio" name="product">
+            <input type="radio" name="product">
+        </div>
+        <div class="info info1">
+            <p class="index">Recommend our company to others</p>
+            <input type="radio" name="company">
+            <input type="radio" name="company">
+            <input type="radio" name="company">
+            <input type="radio" name="company">
+            <input type="radio" name="company">
+        </div>
+        
     </form>
     <h3 class="fonts">Additional comments or suggestions</h3>
     <textarea name="comment"  cols="200" rows="10"></textarea>
