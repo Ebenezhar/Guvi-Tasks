@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            place-content: center;
+            min-height: 100vh;
+        }
+        .info{
+            width:400px;
+            height: 400px;
+            background-color: black;
+            transition: 0.2s;
+        }
+        /* .info:hover{
+            background-color: aqua;
+            transform: scale(2) rotate(3600deg); 
+            border-radius: 50%;
+        } */
+        .info:active{
+            background-color: aqua;
+            transform: scale(1.5);
+        }
+        a:visited{
+            color:deeppink;
+        }
+        a:hover{
+            color:brown;
+        }
+        a:focus{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.co.in/">Go to Google</a>
+    <!-- <div class="info"></div> -->
+</body>
+</html>

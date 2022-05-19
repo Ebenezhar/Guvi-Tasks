@@ -1,0 +1,148 @@
+.container{
+    background-color: rgb(238, 238, 238);
+    width:1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Red Hat Display', sans-serif;
+    overflow: hidden; 
+}
+.sec0{
+    padding:0px 20px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sec1{
+    /* background-color: chartreuse; */
+    border-right: 3px dashed black;
+}
+
+.sec3{
+    /* background-color: darkgrey; */
+    border-right: 3px dashed black;
+}
+.sec4{
+    /* background-color: rgb(48, 109, 109); */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.head1{
+    color:rgb(25 175 192);
+    font-size: 32px;
+    text-transform: uppercase;
+}
+span{
+    color:rgb(180 180 67);
+}
+.head2{
+    text-align: intial;
+    font-weight: 900;
+    font-size: 20px;
+    color:rgb(25 175 192);
+}
+.block1{
+    display: block;
+    background-color: rgb(25 175 192);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.para1{
+    width:50%
+}
+.para2{
+    font-weight: 500;
+    color:rgb(25 175 192);
+    font-size: 20px;
+}
+.para3{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:rgb(49 86 109);
+
+}
+.img1{
+    width: 23%;
+}
+.line1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.para4{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(25 175 192);
+}
+.para5{
+    text-align: center;
+    font-size: 40px; 
+    color:rgb(180 180 67);
+    font-weight: 600;
+}
+.img2{
+    display: block;
+    place-content: center;
+    width: 60%;
+}
+.para6{
+    font-size: 40px; 
+    color:rgb(180 180 67);
+    font-weight: 500;
+    margin: auto;
+}
+.para7{
+    text-transform: uppercase;
+    text-align: right;
+}
+.para8{
+    margin: auto;
+}
+.line4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: auto;
+}
+.para9{
+    width: 40%;
+}
+.line3{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.line2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img3{
+    width:65%;
+}
+.para10{
+    font-size: 38px;
+    font-weight: 500;
+    margin: auto;
+    text-transform: uppercase;
+}
+.para11{
+    font-size: 45px;
+    font-weight: 500;
+    margin: auto;
+    color:rgb(49 86 109);
+}
+.para12{
+    color:rgb(180 180 67);
+}
+.para13{
+    color:rgb(25 175 192);
+}
+.img4{
+    position: relative;
+    top: -200px;
+}
+
+
+
