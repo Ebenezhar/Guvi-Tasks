@@ -28,7 +28,7 @@ async function lucifer (){
     console.log(res);
     
     document.querySelector(".lat").innerText=`Latitude is ${inp1}`;
-    document.querySelector(".long").innerText=`Latitude is ${inp2}`;
+    document.querySelector(".long").innerText=`Longitude is ${inp2}`;
     let dawn = res.results.sunrise;
     console.log(dawn);
     document.querySelector(".dawn").innerText=`Dawn at ${dawn}`;
